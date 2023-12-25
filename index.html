@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="22.jpeg">
+    <title>Explore Ancient Egypt - Contact</title>
+</head>
+
+<body>
+    <header>
+        <h1>Explore Ancient Egypt</h1>
+        <p class="header-date"></p>
+ 
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="history.html">History</a>
+            <a href="architecture.html">Architecture</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Ancient Egypt</h2>
+        <p>
+            Welcome to Explore Ancient Egypt, your gateway to the fascinating world of one of history's greatest civilizations.
+            Immerse yourself in the tales of pharaohs, marvel at architectural wonders, and discover the rich cultural heritage
+            that defines Ancient Egypt.
+        </p>
+        <button id="learn-more-button" onclick="showPopupForPage('about.html')">Learn More</button>
+    </section>
+
+<section id="pyramids">
+    <h2>Pyramids and Monuments</h2>
+    <p>
+        Journey through time as you explore the awe-inspiring pyramids and monumental structures that stand as testaments
+        to the incredible engineering and architectural prowess of the ancient Egyptians.
+    </p>
+    <img class="small-image" src="pyramids.jpg" alt="Pyramids of Giza" loading="lazy">
+</section>
+
+<section id="daily-life">
+    <h2>Daily Life</h2>
+    <p>
+        Immerse yourself in the vibrant tapestry of ancient Egyptian daily life. From the fertile banks of the Nile
+        to bustling marketplaces, explore the customs, activities, and cultural nuances that defined their existence.
+    </p>
+    <div class="daily-life-table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Activity</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Farming</td>
+                    <td>Agriculture was integral, with the Nile River playing a crucial role in irrigation.</td>
+                </tr>
+                <tr>
+                    <td>Craftsmanship</td>
+                    <td>Skilled artisans created intricate works of art, pottery, and jewelry.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section id="gods-religion">
+    <h2>Gods and Religion</h2>
+    <p>
+        Delve into the mystical world of Egyptian gods and religious beliefs. Uncover the pantheon of deities
+        worshipped by the ancient Egyptians and explore the significance of rituals and ceremonies in their spiritual practices.
+    </p>
+    <img class="small-image" src="gods.jpg" alt="Ancient Egyptian Gods"  loading="lazy">
+</section>
+<section id="blog">
+    <h2>Blog</h2>
+    <article id="nile-article">
+        <h3>The Nile: Lifeblood of Ancient Egypt</h3>
+        <p>
+            Explore the significance of the Nile River in the daily life and prosperity of ancient Egyptians.
+            Learn how the annual flooding of the Nile contributed to agricultural abundance.
+        </p>
+        <a href="sphinx-post.html" class="read-more-link" data-target="nile-article">Read More</a>
+    </article>
+    <article id="sphinx-article">
+        <h3>Mysteries of the Sphinx</h3>
+        <p>
+            Delve into the mysteries surrounding the Sphinx and its role in ancient Egyptian mythology and architecture.
+            Discover the secrets hidden behind this iconic monument.
+        </p>
+        <a href="sphinx-post.html" class="read-more-link" data-target="sphinx-article">Read More</a>
+    </article>
+</section>
+
+<section id="artifacts">
+    <h2>Ancient Artifacts</h2>
+    <p>
+        Immerse yourself in the exquisite world of ancient artifacts, each telling a unique story of craftsmanship and cultural significance.
+        Explore our gallery below and click on each artifact to unveil its history.
+    </p>
+
+    <div class="image-container" onclick="exploreArtifact(this)">
+        <img src="artifact1.jpeg" alt="Ancient Artifact 1" data-description="This artifact dates back to the reign of Pharaoh XYZ and holds great historical significance.">
+        <img src="artifact2.jpeg" alt="Ancient Artifact 2" data-description="Discover the mysteries surrounding this ancient artifact and its role in Egyptian mythology.">
+        <img src="artifact3.jpeg" alt="Ancient Artifact 3" data-description="Explore the intricate details of this artifact, showcasing the craftsmanship of ancient Egyptian artisans.">
+    </div>
+    <button id="artifacts-explore-btn">Explore More</button>
+</section>
+
+
+
+<footer>
+    <p>&copy; 2024 Explore Ancient Egypt. All rights reserved. <br>
+        This website was developed by students majoring in Computer Science, Faculty of Science, Alexandria University
+    </p>
+    <a href="#top">Top </a>
+    <script src="script.js"></script>
+</footer>
+</body>
+</html>

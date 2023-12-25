@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="22.jpeg">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <title>Explore Ancient Egypt - Contact</title>
+</head>
+<body>
+    <header>
+        <h1>Explore Ancient Egypt</h1> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="history.html" >History</a>
+            <a href="architecture.html">Architecture</a>
+            <a href="contact.html" class="active" >Contact</a>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            Have questions or feedback? Feel free to contact us using the form below. We appreciate your input!<br>
+           <br>
+           where This website was developed by students majoring in Computer Science, Faculty of Science, Alexandria University
+            
+        </p>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form
+                id="feedbackForm"
+                action="https://formspree.io/f/xvoepljo"
+                method="POST"
+            >
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+    
+
+        <div id="thanksMessage" style="display: none;">
+            <p>Thanks for reaching out! We'll get back to you soon.</p>
+        </div>
+    </section>
+    
+<footer>
+    <p>&copy; 2024 Explore Ancient Egypt. All rights reserved. <br>
+        This website was developed by students majoring in Computer Science, Faculty of Science, Alexandria University
+    </p>
+    <a href="#top">Top </a>
+    <script src="script.js"></script>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
